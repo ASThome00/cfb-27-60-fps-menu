@@ -14,16 +14,27 @@ level, matching how the menus behaved before the update.
 One value in one asset — nothing else:
 
 - `global/RenderSettings/FrontEnd3DRenderSettings` → `RenderFPS`:
-  `VeryLow/Low/Medium/High/Ultra` raised **30 → 60** (SuperUltra was already 60).
+  `VeryLow/Low/Medium/High/Ultra` raised **30 → 60** (SuperUltra was already 60) —
+  or all six tiers set to **120** in the 120 FPS version.
 
 The front end keeps its `IgnoreRenderFpsUserSettings = true` flag, so menus are
 pinned at 60 exactly like they were pre-update — this mod does not touch gameplay,
 cutscenes, or any other render state, and changes no game logic. In-game behaviour
 (including online) is unchanged.
 
+## Two versions — pick ONE
+
+- **`60FPSMenus.fbmod`** — menus at 60 FPS, exactly like before Title Update 3.5.
+- **`120FPSMenus.fbmod`** — menus at 120 FPS, for high-refresh monitors. Same single
+  value, set to 120 instead of 60.
+
+The menu frame rate is pinned to the chosen value regardless of the in-game frame
+rate limit setting (the front end ignores that setting by design). Install only one
+of the two.
+
 ## Install
 
-1. Download `60FPSMenus.fbmod` from the [latest release](../../releases/latest).
+1. Download `60FPSMenus.fbmod` **or** `120FPSMenus.fbmod` from the [latest release](../../releases/latest).
 2. Open **MMC Mod Manager**, import the `.fbmod`, enable it.
 3. Launch the game through the Mod Manager.
 
