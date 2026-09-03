@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.1 - 2026-09-03
+
+- Rebuilt both `.fbmod` files against the September 3, 2026 title update. The
+  front-end cap is unchanged in this update (`FrontEnd3DRenderSettings` RenderFPS is
+  still 30 on VeryLow..Ultra, 60 on SuperUltra, and the front end still ignores the
+  user frame-rate setting), so the fix is the same single edit — re-exported from
+  fresh game data so the mod carries no stale asset data from Title Update 3.5.
+- Added a 120 FPS icon (`icon_120.png`) for the 120 FPS version.
+- No functional changes.
+
 ## 1.0 - 2026-08-28
 
 - Initial release. Restores 60 FPS front-end/menus (Title Update 3.5 locked them

@@ -43,6 +43,9 @@ College Football 27. Like all MMC mods, playing modded means playing offline.
 
 ## After a title update
 
+**Current build: v1.0.1, rebuilt for the September 3, 2026 title update.** (The
+September update did not change the front-end cap — the same edit still applies.)
+
 Title updates reset/patch game data, and the mod may need a rebuild against the new
 data. The MMC project file (`UncappedMenuFPS.fbproject`) is included — open it in
 MMC Editor after an update, verify the RenderFPS values on
