@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 - 2026-09-10
+
+- Rebuilt both `.fbmod` files against the September 10, 2026 title update from
+  fresh game data, so the mod carries no stale asset data from the previous update.
+  Same single edit (`FrontEnd3DRenderSettings` RenderFPS); no functional changes.
+
 ## 1.0.1 - 2026-09-03
 
 - Rebuilt both `.fbmod` files against the September 3, 2026 title update. The
