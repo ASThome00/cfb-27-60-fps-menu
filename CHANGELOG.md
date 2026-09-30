@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.0 - 2026-09-30
+
+- Dynasty hub and Create-a-Player menus are now raised in every version
+  (`CFMHubRenderSettings`, `CreatePlayerRenderSettings` RenderFPS). They load their own
+  render settings (30 on Low/VeryLow, 60 above, ignoring the user frame-rate setting),
+  so they stayed choppy with earlier versions.
+- 120 and 999 versions also raise `FrontEndRenderSettings` (the second settings asset
+  the main menu loads; 60 on every tier in vanilla).
+- New `999FPSMenus.fbmod` — menus effectively uncapped.
+- Gameplay, in-game cutscene and story-scene render settings are still untouched.
+
 ## 1.0.3 - 2026-09-26
 
 - Rebuilt both `.fbmod` files against the September 26, 2026 title update from
