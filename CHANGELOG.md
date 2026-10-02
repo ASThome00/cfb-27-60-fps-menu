@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 - 2026-10-02
+
+- Rebuilt all three `.fbmod` files from fresh game data for the October 1, 2026 title update.
+  The RenderFPS values of the four render-settings assets are unchanged in the update (same
+  vanilla values), so the edits are identical to 1.1.0; no functional changes.
+
 ## 1.1.0 - 2026-09-30
 
 - Dynasty hub and Create-a-Player menus are now raised in every version
