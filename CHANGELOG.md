@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.2 - 2026-10-13
+
+- **Fix (60 FPS version):** Create-a-Player was still capped at 30 FPS on the Low graphics preset
+  (`CreatePlayerRenderSettings` Low tier had been left at 30; only VeryLow was raised). All six
+  presets are now 60.
+- Rebuilt all three `.fbmod` files for the October 13, 2026 title update. The update did not
+  change any of the four render-settings assets (same vanilla RenderFPS values and ignore flags).
+  120 and 999 versions: same edits as 1.1.1.
+
 ## 1.1.1 - 2026-10-02
 
 - Rebuilt all three `.fbmod` files from fresh game data for the October 1, 2026 title update.
