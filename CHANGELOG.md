@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.3 - 2026-10-29
+
+- Rebuilt all three `.fbmod` files for the October 29, 2026 title update. The update did not
+  change any of the four render-settings assets (`ebx_export\tu1029` byte-identical to tu1013),
+  so the edits are identical to 1.1.2; no functional changes.
+
 ## 1.1.2 - 2026-10-13
 
 - **Fix (60 FPS version):** Create-a-Player was still capped at 30 FPS on the Low graphics preset
