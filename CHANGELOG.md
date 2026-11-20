@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.4 - 2026-11-20
+
+- Rebuilt all three `.fbmod` files for the November 17, 2026 title update. The update did not
+  change any of the four render-settings assets (`ebx_export\tu1117` byte-identical to tu1029),
+  so the edits are identical to 1.1.3; no functional changes.
+
 ## 1.1.3 - 2026-10-29
 
 - Rebuilt all three `.fbmod` files for the October 29, 2026 title update. The update did not
